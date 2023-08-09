@@ -1,0 +1,8 @@
+lib: [
+  "_build/install/default/lib/ocamlalgos/META"
+  "_build/install/default/lib/ocamlalgos/dune-package"
+  "_build/install/default/lib/ocamlalgos/opam"
+]
+bin: [
+  "_build/install/default/bin/ocamlalgos"
+]
