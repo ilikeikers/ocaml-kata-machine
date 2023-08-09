@@ -17,6 +17,7 @@
 
 (package
  (name ocamlalgos)
+ (allow_empty)
  (synopsis "A short synopsis")
  (description "A longer description")
  (depends ocaml dune ounit2 ocamlformat ocamlformat-rpc utop odoc)
