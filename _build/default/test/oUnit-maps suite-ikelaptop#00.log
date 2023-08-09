@@ -1,151 +1,150 @@
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Runner: processes
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Chooser: simple
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Configuration suite_name = "maps suite"
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Configuration cache_filename = "/home/ike/coding/ocamlalgos/_build/default/test/oUnit-$(suite_name).cache"
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Configuration run_gc_full_major = "true"
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Configuration display = "true"
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Configuration results_style_1_X = "false"
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Configuration testdata_dir = "none"
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Configuration health_check_interval = "1."
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Configuration verbose = "false"
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Configuration chooser = "simple"
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Configuration output_html_dir = "none"
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Configuration processes_kill_period = "5."
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Configuration runner = "processes"
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Configuration shards = "2"
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Configuration processes_grace_period = "5."
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Configuration log_encoding = "utf-8"
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Configuration output_junit_file = "none"
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Configuration ci = "false"
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Configuration output_file = "/home/ike/coding/ocamlalgos/_build/default/test/oUnit-$(suite_name)-$(shard_id).log"
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Using 2 workers maximum.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Starting worker number ikelaptop#01.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Worker ikelaptop#01 started.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Starting worker number ikelaptop#02.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Worker ikelaptop#02 started.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:1:singleton list has 1 binding, maps suite:0:empty has no bindings.
-2023-08-09T10:55:01+00:00 ikelaptop#01 I: Start test maps suite:0:empty has no bindings.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:1:singleton list has 1 binding, maps suite:0:empty has no bindings.
-2023-08-09T10:55:01+00:00 ikelaptop#02 I: Start test maps suite:1:singleton list has 1 binding.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:1:singleton list has 1 binding, maps suite:0:empty has no bindings.
-2023-08-09T10:55:01+00:00 ikelaptop#01 I: Test maps suite:0:empty has no bindings is successful.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:1:singleton list has 1 binding, maps suite:0:empty has no bindings.
-2023-08-09T10:55:01+00:00 ikelaptop#01 I: End test maps suite:0:empty has no bindings.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:1:singleton list has 1 binding, maps suite:0:empty has no bindings.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:2:list with two bindings, maps suite:1:singleton list has 1 binding.
-2023-08-09T10:55:01+00:00 ikelaptop#01 I: Start test maps suite:2:list with two bindings.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:2:list with two bindings, maps suite:1:singleton list has 1 binding.
-2023-08-09T10:55:01+00:00 ikelaptop#02 I: Test maps suite:1:singleton list has 1 binding is successful.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:2:list with two bindings, maps suite:1:singleton list has 1 binding.
-2023-08-09T10:55:01+00:00 ikelaptop#02 I: End test maps suite:1:singleton list has 1 binding.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:2:list with two bindings, maps suite:1:singleton list has 1 binding.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:3:list with three bindings, maps suite:2:list with two bindings.
-2023-08-09T10:55:01+00:00 ikelaptop#02 I: Start test maps suite:3:list with three bindings.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:3:list with three bindings, maps suite:2:list with two bindings.
-2023-08-09T10:55:01+00:00 ikelaptop#01 I: Test maps suite:2:list with two bindings is successful.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:3:list with three bindings, maps suite:2:list with two bindings.
-2023-08-09T10:55:01+00:00 ikelaptop#01 I: End test maps suite:2:list with two bindings.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:3:list with three bindings, maps suite:2:list with two bindings.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:4:add one to empty list, maps suite:3:list with three bindings.
-2023-08-09T10:55:01+00:00 ikelaptop#01 I: Start test maps suite:4:add one to empty list.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:4:add one to empty list, maps suite:3:list with three bindings.
-2023-08-09T10:55:01+00:00 ikelaptop#02 I: Test maps suite:3:list with three bindings is successful.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:4:add one to empty list, maps suite:3:list with three bindings.
-2023-08-09T10:55:01+00:00 ikelaptop#02 I: End test maps suite:3:list with three bindings.
-2023-08-09T10:55:01+00:00 ikelaptop#01 I: Test maps suite:4:add one to empty list is successful.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:4:add one to empty list, maps suite:3:list with three bindings.
-2023-08-09T10:55:01+00:00 ikelaptop#01 I: End test maps suite:4:add one to empty list.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:5:add one to singleton list, maps suite:4:add one to empty list.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:6:add one to double list, maps suite:5:add one to singleton list.
-2023-08-09T10:55:01+00:00 ikelaptop#02 I: Start test maps suite:5:add one to singleton list.
-2023-08-09T10:55:01+00:00 ikelaptop#01 I: Start test maps suite:6:add one to double list.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:6:add one to double list, maps suite:5:add one to singleton list.
-2023-08-09T10:55:01+00:00 ikelaptop#01 I: Test maps suite:6:add one to double list is successful.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:6:add one to double list, maps suite:5:add one to singleton list.
-2023-08-09T10:55:01+00:00 ikelaptop#01 I: End test maps suite:6:add one to double list.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:6:add one to double list, maps suite:5:add one to singleton list.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:7:remove one from triple list, maps suite:5:add one to singleton list.
-2023-08-09T10:55:01+00:00 ikelaptop#01 I: Start test maps suite:7:remove one from triple list.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:7:remove one from triple list, maps suite:5:add one to singleton list.
-2023-08-09T10:55:01+00:00 ikelaptop#02 I: Test maps suite:5:add one to singleton list is successful.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:7:remove one from triple list, maps suite:5:add one to singleton list.
-2023-08-09T10:55:01+00:00 ikelaptop#02 I: End test maps suite:5:add one to singleton list.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:7:remove one from triple list, maps suite:5:add one to singleton list.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:8:remove one from triple list, maps suite:7:remove one from triple list.
-2023-08-09T10:55:01+00:00 ikelaptop#02 I: Start test maps suite:8:remove one from triple list.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:8:remove one from triple list, maps suite:7:remove one from triple list.
-2023-08-09T10:55:01+00:00 ikelaptop#01 I: Test maps suite:7:remove one from triple list is successful.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:8:remove one from triple list, maps suite:7:remove one from triple list.
-2023-08-09T10:55:01+00:00 ikelaptop#01 I: End test maps suite:7:remove one from triple list.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:8:remove one from triple list, maps suite:7:remove one from triple list.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:9:remove one from triple list, maps suite:8:remove one from triple list.
-2023-08-09T10:55:01+00:00 ikelaptop#01 I: Start test maps suite:9:remove one from triple list.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:9:remove one from triple list, maps suite:8:remove one from triple list.
-2023-08-09T10:55:01+00:00 ikelaptop#01 I: Test maps suite:9:remove one from triple list is successful.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:9:remove one from triple list, maps suite:8:remove one from triple list.
-2023-08-09T10:55:01+00:00 ikelaptop#02 I: Test maps suite:8:remove one from triple list is successful.
-2023-08-09T10:55:01+00:00 ikelaptop#01 I: End test maps suite:9:remove one from triple list.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:9:remove one from triple list, maps suite:8:remove one from triple list.
-2023-08-09T10:55:01+00:00 ikelaptop#02 I: End test maps suite:8:remove one from triple list.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:10:find key in triple list, maps suite:8:remove one from triple list.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:11:find key in single list, maps suite:10:find key in triple list.
-2023-08-09T10:55:01+00:00 ikelaptop#02 I: Start test maps suite:11:find key in single list.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:11:find key in single list, maps suite:10:find key in triple list.
-2023-08-09T10:55:01+00:00 ikelaptop#01 I: Start test maps suite:10:find key in triple list.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:11:find key in single list, maps suite:10:find key in triple list.
-2023-08-09T10:55:01+00:00 ikelaptop#01 I: Test maps suite:10:find key in triple list is successful.
-2023-08-09T10:55:01+00:00 ikelaptop#02 I: Test maps suite:11:find key in single list is successful.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:11:find key in single list, maps suite:10:find key in triple list.
-2023-08-09T10:55:01+00:00 ikelaptop#01 I: End test maps suite:10:find key in triple list.
-2023-08-09T10:55:01+00:00 ikelaptop#02 I: End test maps suite:11:find key in single list.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:11:find key in single list, maps suite:10:find key in triple list.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Still 2 tests running : maps suite:13:find bad key in triple list, maps suite:12:find key in empty list.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:13:find bad key in triple list, maps suite:12:find key in empty list.
-2023-08-09T10:55:01+00:00 ikelaptop#02 I: Start test maps suite:12:find key in empty list.
-2023-08-09T10:55:01+00:00 ikelaptop#01 I: Start test maps suite:13:find bad key in triple list.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Still 2 tests running : maps suite:13:find bad key in triple list, maps suite:12:find key in empty list.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:13:find bad key in triple list, maps suite:12:find key in empty list.
-2023-08-09T10:55:01+00:00 ikelaptop#01 I: Test maps suite:13:find bad key in triple list is successful.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Still 2 tests running : maps suite:13:find bad key in triple list, maps suite:12:find key in empty list.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:13:find bad key in triple list, maps suite:12:find key in empty list.
-2023-08-09T10:55:01+00:00 ikelaptop#01 I: End test maps suite:13:find bad key in triple list.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Still 2 tests running : maps suite:13:find bad key in triple list, maps suite:12:find key in empty list.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 2 tests running: maps suite:13:find bad key in triple list, maps suite:12:find key in empty list.
-2023-08-09T10:55:01+00:00 ikelaptop#02 I: Test maps suite:12:find key in empty list is successful.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Still 1 tests running : maps suite:12:find key in empty list.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 1 tests running: maps suite:12:find key in empty list.
-2023-08-09T10:55:01+00:00 ikelaptop#02 I: End test maps suite:12:find key in empty list.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Still 1 tests running : maps suite:12:find key in empty list.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 1 tests running: maps suite:12:find key in empty list.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: 0 tests running: .
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Worker ikelaptop#01 has ended.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Worker ikelaptop#02 has ended.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Used 2 worker during test execution.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Run 8 tests with shard ikelaptop#01.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Run 6 tests with shard ikelaptop#02.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Check health of shard ikelaptop#01, 3 times.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Check health of shard ikelaptop#02, 1 times.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: ==============
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Summary:
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Test maps suite:12:find key in empty list is successful.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Test maps suite:13:find bad key in triple list is successful.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Test maps suite:11:find key in single list is successful.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Test maps suite:10:find key in triple list is successful.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Test maps suite:8:remove one from triple list is successful.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Test maps suite:9:remove one from triple list is successful.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Test maps suite:7:remove one from triple list is successful.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Test maps suite:5:add one to singleton list is successful.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Test maps suite:6:add one to double list is successful.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Test maps suite:4:add one to empty list is successful.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Test maps suite:3:list with three bindings is successful.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Test maps suite:2:list with two bindings is successful.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Test maps suite:1:singleton list has 1 binding is successful.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Test maps suite:0:empty has no bindings is successful.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Ran: 14 tests in: 0.11 seconds.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Cases: 14.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Tried: 14.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Errors: 0.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Failures: 0.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Skip: 0.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Todo: 0.
-2023-08-09T10:55:01+00:00 ikelaptop#00 I: Timeout: 0.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Runner: processes
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Chooser: simple
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Configuration suite_name = "maps suite"
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Configuration cache_filename = "/home/ike/coding/ocamlalgos/_build/default/test/oUnit-$(suite_name).cache"
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Configuration run_gc_full_major = "true"
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Configuration display = "true"
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Configuration results_style_1_X = "false"
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Configuration testdata_dir = "none"
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Configuration health_check_interval = "1."
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Configuration verbose = "false"
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Configuration chooser = "simple"
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Configuration output_html_dir = "none"
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Configuration processes_kill_period = "5."
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Configuration runner = "processes"
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Configuration shards = "2"
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Configuration processes_grace_period = "5."
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Configuration log_encoding = "utf-8"
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Configuration output_junit_file = "none"
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Configuration ci = "false"
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Configuration output_file = "/home/ike/coding/ocamlalgos/_build/default/test/oUnit-$(suite_name)-$(shard_id).log"
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Using 2 workers maximum.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Starting worker number ikelaptop#01.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Worker ikelaptop#01 started.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Starting worker number ikelaptop#02.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Worker ikelaptop#02 started.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 2 tests running: maps suite:1:singleton list has 1 binding, maps suite:0:empty has no bindings.
+2023-08-09T11:27:42+00:00 ikelaptop#01 I: Start test maps suite:0:empty has no bindings.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 2 tests running: maps suite:1:singleton list has 1 binding, maps suite:0:empty has no bindings.
+2023-08-09T11:27:42+00:00 ikelaptop#02 I: Start test maps suite:1:singleton list has 1 binding.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 2 tests running: maps suite:1:singleton list has 1 binding, maps suite:0:empty has no bindings.
+2023-08-09T11:27:42+00:00 ikelaptop#01 I: Test maps suite:0:empty has no bindings is successful.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 2 tests running: maps suite:1:singleton list has 1 binding, maps suite:0:empty has no bindings.
+2023-08-09T11:27:42+00:00 ikelaptop#01 I: End test maps suite:0:empty has no bindings.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 2 tests running: maps suite:1:singleton list has 1 binding, maps suite:0:empty has no bindings.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 2 tests running: maps suite:2:list with two bindings, maps suite:1:singleton list has 1 binding.
+2023-08-09T11:27:42+00:00 ikelaptop#01 I: Start test maps suite:2:list with two bindings.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 2 tests running: maps suite:2:list with two bindings, maps suite:1:singleton list has 1 binding.
+2023-08-09T11:27:42+00:00 ikelaptop#02 I: Test maps suite:1:singleton list has 1 binding is successful.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 2 tests running: maps suite:2:list with two bindings, maps suite:1:singleton list has 1 binding.
+2023-08-09T11:27:42+00:00 ikelaptop#02 I: End test maps suite:1:singleton list has 1 binding.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 2 tests running: maps suite:2:list with two bindings, maps suite:1:singleton list has 1 binding.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 2 tests running: maps suite:3:list with three bindings, maps suite:2:list with two bindings.
+2023-08-09T11:27:42+00:00 ikelaptop#01 I: Test maps suite:2:list with two bindings is successful.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 2 tests running: maps suite:3:list with three bindings, maps suite:2:list with two bindings.
+2023-08-09T11:27:42+00:00 ikelaptop#01 I: End test maps suite:2:list with two bindings.
+2023-08-09T11:27:42+00:00 ikelaptop#02 I: Start test maps suite:3:list with three bindings.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 2 tests running: maps suite:3:list with three bindings, maps suite:2:list with two bindings.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 2 tests running: maps suite:4:add one to empty list, maps suite:3:list with three bindings.
+2023-08-09T11:27:42+00:00 ikelaptop#01 I: Start test maps suite:4:add one to empty list.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 2 tests running: maps suite:4:add one to empty list, maps suite:3:list with three bindings.
+2023-08-09T11:27:42+00:00 ikelaptop#02 I: Test maps suite:3:list with three bindings is successful.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 2 tests running: maps suite:4:add one to empty list, maps suite:3:list with three bindings.
+2023-08-09T11:27:42+00:00 ikelaptop#02 I: End test maps suite:3:list with three bindings.
+2023-08-09T11:27:42+00:00 ikelaptop#01 I: Test maps suite:4:add one to empty list is successful.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 2 tests running: maps suite:4:add one to empty list, maps suite:3:list with three bindings.
+2023-08-09T11:27:42+00:00 ikelaptop#01 I: End test maps suite:4:add one to empty list.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 2 tests running: maps suite:5:add one to singleton list, maps suite:4:add one to empty list.
+2023-08-09T11:27:42+00:00 ikelaptop#02 I: Start test maps suite:5:add one to singleton list.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 2 tests running: maps suite:6:add one to double list, maps suite:5:add one to singleton list.
+2023-08-09T11:27:42+00:00 ikelaptop#01 I: Start test maps suite:6:add one to double list.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 2 tests running: maps suite:6:add one to double list, maps suite:5:add one to singleton list.
+2023-08-09T11:27:42+00:00 ikelaptop#02 I: Test maps suite:5:add one to singleton list is successful.
+2023-08-09T11:27:42+00:00 ikelaptop#01 I: Test maps suite:6:add one to double list is successful.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 2 tests running: maps suite:6:add one to double list, maps suite:5:add one to singleton list.
+2023-08-09T11:27:42+00:00 ikelaptop#02 I: End test maps suite:5:add one to singleton list.
+2023-08-09T11:27:42+00:00 ikelaptop#01 I: End test maps suite:6:add one to double list.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 2 tests running: maps suite:6:add one to double list, maps suite:5:add one to singleton list.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 2 tests running: maps suite:8:remove one from triple list, maps suite:7:remove one from triple list.
+2023-08-09T11:27:42+00:00 ikelaptop#01 I: Start test maps suite:7:remove one from triple list.
+2023-08-09T11:27:42+00:00 ikelaptop#02 I: Start test maps suite:8:remove one from triple list.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 2 tests running: maps suite:8:remove one from triple list, maps suite:7:remove one from triple list.
+2023-08-09T11:27:42+00:00 ikelaptop#02 I: Test maps suite:8:remove one from triple list is successful.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 2 tests running: maps suite:8:remove one from triple list, maps suite:7:remove one from triple list.
+2023-08-09T11:27:42+00:00 ikelaptop#01 I: Test maps suite:7:remove one from triple list is successful.
+2023-08-09T11:27:42+00:00 ikelaptop#02 I: End test maps suite:8:remove one from triple list.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 2 tests running: maps suite:8:remove one from triple list, maps suite:7:remove one from triple list.
+2023-08-09T11:27:42+00:00 ikelaptop#01 I: End test maps suite:7:remove one from triple list.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 2 tests running: maps suite:9:remove one from triple list, maps suite:7:remove one from triple list.
+2023-08-09T11:27:42+00:00 ikelaptop#02 I: Start test maps suite:9:remove one from triple list.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 2 tests running: maps suite:10:find key in triple list, maps suite:9:remove one from triple list.
+2023-08-09T11:27:42+00:00 ikelaptop#01 I: Start test maps suite:10:find key in triple list.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 2 tests running: maps suite:10:find key in triple list, maps suite:9:remove one from triple list.
+2023-08-09T11:27:42+00:00 ikelaptop#01 I: Test maps suite:10:find key in triple list is successful.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 2 tests running: maps suite:10:find key in triple list, maps suite:9:remove one from triple list.
+2023-08-09T11:27:42+00:00 ikelaptop#02 I: Test maps suite:9:remove one from triple list is successful.
+2023-08-09T11:27:42+00:00 ikelaptop#01 I: End test maps suite:10:find key in triple list.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 2 tests running: maps suite:10:find key in triple list, maps suite:9:remove one from triple list.
+2023-08-09T11:27:42+00:00 ikelaptop#02 I: End test maps suite:9:remove one from triple list.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 2 tests running: maps suite:11:find key in double list, maps suite:9:remove one from triple list.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 2 tests running: maps suite:12:find key in single list, maps suite:11:find key in double list.
+2023-08-09T11:27:42+00:00 ikelaptop#01 I: Start test maps suite:11:find key in double list.
+2023-08-09T11:27:42+00:00 ikelaptop#02 I: Start test maps suite:12:find key in single list.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 2 tests running: maps suite:12:find key in single list, maps suite:11:find key in double list.
+2023-08-09T11:27:42+00:00 ikelaptop#01 I: Test maps suite:11:find key in double list is successful.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 2 tests running: maps suite:12:find key in single list, maps suite:11:find key in double list.
+2023-08-09T11:27:42+00:00 ikelaptop#01 I: End test maps suite:11:find key in double list.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 2 tests running: maps suite:12:find key in single list, maps suite:11:find key in double list.
+2023-08-09T11:27:42+00:00 ikelaptop#02 I: Test maps suite:12:find key in single list is successful.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 2 tests running: maps suite:13:find key in empty list, maps suite:12:find key in single list.
+2023-08-09T11:27:42+00:00 ikelaptop#02 I: End test maps suite:12:find key in single list.
+2023-08-09T11:27:42+00:00 ikelaptop#01 I: Start test maps suite:13:find key in empty list.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 2 tests running: maps suite:13:find key in empty list, maps suite:12:find key in single list.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Still 2 tests running : maps suite:14:find bad key in triple list, maps suite:13:find key in empty list.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 2 tests running: maps suite:14:find bad key in triple list, maps suite:13:find key in empty list.
+2023-08-09T11:27:42+00:00 ikelaptop#02 I: Start test maps suite:14:find bad key in triple list.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Still 2 tests running : maps suite:14:find bad key in triple list, maps suite:13:find key in empty list.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 2 tests running: maps suite:14:find bad key in triple list, maps suite:13:find key in empty list.
+2023-08-09T11:27:42+00:00 ikelaptop#02 I: Test maps suite:14:find bad key in triple list is successful.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Still 2 tests running : maps suite:14:find bad key in triple list, maps suite:13:find key in empty list.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 2 tests running: maps suite:14:find bad key in triple list, maps suite:13:find key in empty list.
+2023-08-09T11:27:42+00:00 ikelaptop#01 I: Test maps suite:13:find key in empty list is successful.
+2023-08-09T11:27:42+00:00 ikelaptop#02 I: End test maps suite:14:find bad key in triple list.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Still 2 tests running : maps suite:14:find bad key in triple list, maps suite:13:find key in empty list.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 2 tests running: maps suite:14:find bad key in triple list, maps suite:13:find key in empty list.
+2023-08-09T11:27:42+00:00 ikelaptop#01 I: End test maps suite:13:find key in empty list.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Still 1 tests running : maps suite:13:find key in empty list.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 1 tests running: maps suite:13:find key in empty list.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: 0 tests running: .
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Worker ikelaptop#02 has ended.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Worker ikelaptop#01 has ended.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Used 2 worker during test execution.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Run 8 tests with shard ikelaptop#01.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Run 7 tests with shard ikelaptop#02.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Check health of shard ikelaptop#01, 1 times.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Check health of shard ikelaptop#02, 2 times.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: ==============
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Summary:
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Test maps suite:13:find key in empty list is successful.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Test maps suite:14:find bad key in triple list is successful.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Test maps suite:12:find key in single list is successful.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Test maps suite:11:find key in double list is successful.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Test maps suite:9:remove one from triple list is successful.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Test maps suite:10:find key in triple list is successful.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Test maps suite:7:remove one from triple list is successful.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Test maps suite:8:remove one from triple list is successful.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Test maps suite:6:add one to double list is successful.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Test maps suite:5:add one to singleton list is successful.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Test maps suite:4:add one to empty list is successful.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Test maps suite:3:list with three bindings is successful.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Test maps suite:2:list with two bindings is successful.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Test maps suite:1:singleton list has 1 binding is successful.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Test maps suite:0:empty has no bindings is successful.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Ran: 15 tests in: 0.11 seconds.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Cases: 15.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Tried: 15.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Errors: 0.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Failures: 0.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Skip: 0.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Todo: 0.
+2023-08-09T11:27:42+00:00 ikelaptop#00 I: Timeout: 0.

@@ -21,11 +21,12 @@ let pp_list pp_elt lst =
   let pp_elts lst =
     let rec loop n acc = function
       | [] -> acc
-      | [ h ] -> acc ^ pp_elt h
+      | [h] -> acc ^ pp_elt h
       | h1 :: (_ :: _ as t') ->
-        if n = 100
-        then acc ^ "..." (* will stop printing a long list *)
-        else loop (n + 1) (acc ^ pp_elt h1 ^ "; ") t'
+        if n = 100 then
+          acc ^ "..." (* will stop printing a long list *)
+        else
+          loop (n + 1) (acc ^ pp_elt h1 ^ "; ") t'
     in
     loop 0 "" lst
   in
@@ -47,29 +48,39 @@ let bindings_test name output input =
 ;;
 
 let find_tests name output input key =
-  name >:: fun _ -> assert_equal output (Assoc_list_map.find key input)
+  name >:: (fun _ -> assert_equal output (Assoc_list_map.find key input))
 ;;
 
-let lst1 = [ 3110, "fun" ]
-let lst2 = [ 3110, "fun"; 2110, "OO" ]
-let lst3 = [ 3110, "fun"; 2110, "OO"; 42, "LUE" ]
+let get_key lst x = List.nth lst x |> fst
+let get_val lst x = List.nth lst x |> snd
+let lst1 = [-1, ""]
+let key1 = get_key lst1 0
+let val1 = get_val lst1 0
+let lst2 = [key1, val1; 0, " "]
+let key2 = get_key lst2 1
+let val2 = get_val lst2 1
+let lst3 = [key1, val1; key2, val2; 42, "LUE"]
+let key3 = get_key lst3 2
+let val3 = get_val lst3 2
 
 let assoc_tests =
   let open Assoc_list_map in
-  [ bindings_test "empty has no bindings" [] empty
-  ; bindings_test "singleton list has 1 binding" lst1 (of_list lst1)
-  ; bindings_test "list with two bindings" lst2 (of_list lst2)
-  ; bindings_test "list with three bindings" lst3 (of_list lst3)
-  ; bindings_test "add one to empty list" lst1 (of_list (insert 3110 "fun" empty))
-  ; bindings_test "add one to singleton list" lst2 (of_list (insert 2110 "OO" lst1))
-  ; bindings_test "add one to double list" lst3 (of_list (insert 42 "LUE" lst2))
-  ; bindings_test "remove one from triple list" lst2 (of_list (remove 42 lst3))
-  ; bindings_test "remove one from triple list" lst1 (of_list (remove 2110 lst2))
-  ; bindings_test "remove one from triple list" empty (of_list (remove 3110 lst1))
-  ; find_tests "find key in triple list" (Some "LUE") lst3 42
-  ; find_tests "find key in single list" (Some "fun") lst1 3110
-  ; find_tests "find key in empty list" None empty 3110
-  ; find_tests "find bad key in triple list" None lst3 17
+  [
+    bindings_test "empty has no bindings" [] empty;
+    bindings_test "singleton list has 1 binding" lst1 (of_list lst1);
+    bindings_test "list with two bindings" lst2 (of_list lst2);
+    bindings_test "list with three bindings" lst3 (of_list lst3);
+    bindings_test "add one to empty list" lst1 (of_list (insert key1 val1 empty));
+    bindings_test "add one to singleton list" lst2 (of_list (insert key2 val2 lst1));
+    bindings_test "add one to double list" lst3 (of_list (insert key3 val3 lst2));
+    bindings_test "remove one from triple list" lst2 (of_list (remove key3 lst3));
+    bindings_test "remove one from triple list" lst1 (of_list (remove key2 lst2));
+    bindings_test "remove one from triple list" empty (of_list (remove key1 lst1));
+    find_tests "find key in triple list" (Some val3) lst3 key3;
+    find_tests "find key in double list" (Some val2) lst3 key2;
+    find_tests "find key in single list" (Some val1) lst1 key1;
+    find_tests "find key in empty list" None empty key1;
+    find_tests "find bad key in triple list" None lst3 17;
   ]
 ;;
 

@@ -3,4 +3,4 @@ let rec sum = function
   | x :: xs -> x + sum xs
 ;;
 
-let _ = sum [ 1; 2 ]
+let _ = sum [1; 2]

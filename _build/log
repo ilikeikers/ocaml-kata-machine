@@ -3,7 +3,7 @@
 # Shared cache: disabled
 # Workspace root: /home/ike/coding/ocamlalgos
 # Auto-detected concurrency: 4
-$ /home/ike/.opam/algos-kata/bin/ocamlc.opt -config > /tmp/dune_22303a_output
+$ /home/ike/.opam/algos-kata/bin/ocamlc.opt -config > /tmp/dune_509d98_output
 # Dune context:
 #  { name = "default"
 #  ; kind = "default"
@@ -113,6 +113,6 @@ $ /home/ike/.opam/algos-kata/bin/ocamlc.opt -config > /tmp/dune_22303a_output
 #      }
 #  }
 $ (cd _build/default/test && ./mapstest.exe)
-> ..............
-> Ran: 14 tests in: 0.11 seconds.
+> ...............
+> Ran: 15 tests in: 0.11 seconds.
 > OK
