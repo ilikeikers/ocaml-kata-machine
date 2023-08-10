@@ -1,2 +1,5 @@
+(include_subdirs unqualified)
+
 (library
- (name implementation))
+ (name practice)
+ (modules maps assoc_list))
