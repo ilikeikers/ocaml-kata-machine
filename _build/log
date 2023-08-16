@@ -1,9 +1,9 @@
-# dune test
+# dune build
 # OCAMLPARAM: unset
 # Shared cache: disabled
 # Workspace root: /home/ike/coding/ocamlalgos
 # Auto-detected concurrency: 4
-$ /home/ike/.opam/algos-kata/bin/ocamlc.opt -config > /tmp/dune_8805e0_output
+$ /home/ike/.opam/algos-kata/bin/ocamlc.opt -config > /tmp/dune_b8a28d_output
 # Dune context:
 #  { name = "default"
 #  ; kind = "default"
@@ -112,3 +112,16 @@ $ /home/ike/.opam/algos-kata/bin/ocamlc.opt -config > /tmp/dune_8805e0_output
 #      ; windows_unicode = false
 #      }
 #  }
+$ (cd _build/default && /home/ike/.opam/algos-kata/bin/ocamldep.opt -modules -impl lib/test_helpers/gb_trees.ml) > _build/default/lib/test_helpers/.test_helpers.objs/test_helpers__Gb_trees.impl.d
+$ (cd _build/default && /home/ike/.opam/algos-kata/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -I lib/test_helpers/.test_helpers.objs/byte -I lib/kata_implementations/.builtin_implementation.objs/byte -no-alias-deps -opaque -open Test_helpers -o lib/test_helpers/.test_helpers.objs/byte/test_helpers__Gb_trees.cmo -c -impl lib/test_helpers/gb_trees.ml)
+$ (cd _build/default && /home/ike/.opam/algos-kata/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -I test/build_test/.bt_preorder.eobjs/byte -I /home/ike/.opam/algos-kata/lib/ocaml/unix -I /home/ike/.opam/algos-kata/lib/ounit2 -I /home/ike/.opam/algos-kata/lib/ounit2/advanced -I /home/ike/.opam/algos-kata/lib/seq -I /home/ike/.opam/algos-kata/lib/stdlib-shims -I bin/.practice.objs/byte -I lib/.algolib.objs/byte -I lib/kata_implementations/.builtin_implementation.objs/byte -I lib/test_helpers/.test_helpers.objs/byte -I test/.algotests.objs/byte -no-alias-deps -opaque -open Dune__exe -o test/build_test/.bt_preorder.eobjs/byte/dune__exe__Bt_preorder.cmi -c -intf test/build_test/bt_preorder.mli)
+$ (cd _build/default && /home/ike/.opam/algos-kata/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I lib/test_helpers/.test_helpers.objs/byte -I lib/test_helpers/.test_helpers.objs/native -I lib/kata_implementations/.builtin_implementation.objs/byte -I lib/kata_implementations/.builtin_implementation.objs/native -intf-suffix .ml -no-alias-deps -opaque -open Test_helpers -o lib/test_helpers/.test_helpers.objs/native/test_helpers__Gb_trees.cmx -c -impl lib/test_helpers/gb_trees.ml)
+$ (cd _build/default && /home/ike/.opam/algos-kata/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I test/build_test/.bt_preorder.eobjs/byte -I test/build_test/.bt_preorder.eobjs/native -I /home/ike/.opam/algos-kata/lib/ocaml/unix -I /home/ike/.opam/algos-kata/lib/ounit2 -I /home/ike/.opam/algos-kata/lib/ounit2/advanced -I /home/ike/.opam/algos-kata/lib/seq -I /home/ike/.opam/algos-kata/lib/stdlib-shims -I bin/.practice.objs/byte -I bin/.practice.objs/native -I lib/.algolib.objs/byte -I lib/.algolib.objs/native -I lib/kata_implementations/.builtin_implementation.objs/byte -I lib/kata_implementations/.builtin_implementation.objs/native -I lib/test_helpers/.test_helpers.objs/byte -I lib/test_helpers/.test_helpers.objs/native -I test/.algotests.objs/byte -I test/.algotests.objs/native -intf-suffix .ml -no-alias-deps -opaque -open Dune__exe -o test/build_test/.bt_preorder.eobjs/native/dune__exe__Bt_preorder.cmx -c -impl test/build_test/bt_preorder.ml)
+> File "test/build_test/bt_preorder.ml", line 22, characters 6-23:
+> 22 |       gb_valid_one_deep;
+>            ^^^^^^^^^^^^^^^^^
+> Error: This expression has type int Test_helpers.Gb_trees.tree
+>        but an expression was expected of type
+>          int Builtin_implementation.Bt_preorder.tree
+[2]
+$ (cd _build/default && /home/ike/.opam/algos-kata/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -a -o lib/test_helpers/test_helpers.cmxa lib/test_helpers/.test_helpers.objs/native/test_helpers.cmx lib/test_helpers/.test_helpers.objs/native/test_helpers__Helpers.cmx lib/test_helpers/.test_helpers.objs/native/test_helpers__Gb_trees.cmx lib/test_helpers/.test_helpers.objs/native/test_helpers__Gb_lists.cmx)

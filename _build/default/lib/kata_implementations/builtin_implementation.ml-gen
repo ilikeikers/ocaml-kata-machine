@@ -9,6 +9,9 @@ module Batch_queue = Builtin_implementation__Batch_queue
 (** @canonical Builtin_implementation.Batch_queue_ds *)
 module Batch_queue_ds = Builtin_implementation__Batch_queue_ds
 
+(** @canonical Builtin_implementation.Bt_preorder *)
+module Bt_preorder = Builtin_implementation__Bt_preorder
+
 (** @canonical Builtin_implementation.List_queue *)
 module List_queue = Builtin_implementation__List_queue
 
@@ -23,3 +26,6 @@ module Queue_ds = Builtin_implementation__Queue_ds
 
 (** @canonical Builtin_implementation.Stack_ds *)
 module Stack_ds = Builtin_implementation__Stack_ds
+
+(** @canonical Builtin_implementation.Tree_ds *)
+module Tree_ds = Builtin_implementation__Tree_ds

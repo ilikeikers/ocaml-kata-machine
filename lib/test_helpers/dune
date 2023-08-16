@@ -1,2 +1,3 @@
 (library
- (name test_helpers))
+ (name test_helpers)
+  (libraries builtin_implementation))

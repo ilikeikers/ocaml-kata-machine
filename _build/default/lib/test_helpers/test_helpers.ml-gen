@@ -3,5 +3,8 @@
 (** @canonical Test_helpers.Gb_lists *)
 module Gb_lists = Test_helpers__Gb_lists
 
+(** @canonical Test_helpers.Gb_trees *)
+module Gb_trees = Test_helpers__Gb_trees
+
 (** @canonical Test_helpers.Helpers *)
 module Helpers = Test_helpers__Helpers

@@ -1,5 +1,5 @@
-(include_subdirs no)
-
-(tests
- (names mapstest)
+; change to tests if needed
+; change name to names and oldtests to relevant tests
+(library
+ (name oldtests)
  (libraries algotests))

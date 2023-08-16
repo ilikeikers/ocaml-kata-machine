@@ -1,3 +1,3 @@
 (tests
- (names assoc_list_test batch_queue_test list_queue_test list_stack_test)
+ (names bt_preorder)
  (libraries algotests algolib builtin_implementation test_helpers))
