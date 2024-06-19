@@ -1,3 +1,4 @@
+include Tree_ds
 
 type 'a tree =
   | Leaf
@@ -8,8 +9,6 @@ and 'a node = {
   left: 'a tree;
   right: 'a tree
 }
-
-include Tree_ds
 
 (** [preorder_traversal_lin] is more efficient, but it reads much less clearly.
     Efficiency: O(n) *)

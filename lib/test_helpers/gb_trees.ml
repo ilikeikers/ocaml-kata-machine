@@ -1,3 +1,5 @@
+include Builtin_implementation.Tree_ds
+
 type 'a tree =
       | Leaf
       | Node of 'a node
@@ -6,8 +8,6 @@ type 'a tree =
       left: 'a tree;
       right: 'a tree
 }
-
-include Builtin_implementation.Tree_ds
 
 (** [gb_empty_tree] is an emty tree used to compare to empty list for binary tree traversal alogrithms *)
 let gb_empty_tree = Leaf

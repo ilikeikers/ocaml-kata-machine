@@ -5,7 +5,7 @@
 (generate_opam_files true)
 
 (source
- (github username/reponame))
+ (github ilikeikers/ocaml-kata-machine))
 
 (authors "Ike Patton")
 
